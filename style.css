@@ -45,3 +45,25 @@ iframe#tela{
     width: 267px;
     height: 471px;
 }
+
+section#icones > a > img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.493);
+}
+
+section#icones{
+    text-align: right;
+}
+
+section#icones > a > img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.582);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
+    transition: 0.5s;
+    transform:  translate(-3px, -3px);
+
+}
