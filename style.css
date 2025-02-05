@@ -59,8 +59,7 @@ section#icones > a > img{
 section#icones{
     text-align: right;
     position: absolute;
-    display: block;
-    
+
 }
 
 section#icones > a > img:hover{
