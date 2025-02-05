@@ -58,7 +58,9 @@ section#icones > a > img{
 
 section#icones{
     text-align: right;
-    margin-left: 1000px;
+    position: absolute;
+    display: block;
+    
 }
 
 section#icones > a > img:hover{
